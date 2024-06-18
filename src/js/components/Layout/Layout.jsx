@@ -1,5 +1,6 @@
 import React from "react"
 import { Navbar } from "../Navbar/Navbar.jsx"
+import Home from "../../Views/Home/Home.jsx"
 
 //componentes, se escriben con la primer letra en mayuscula
 //un componente es una función que retorna jsx
@@ -8,13 +9,9 @@ import { Navbar } from "../Navbar/Navbar.jsx"
 function Layout() {
     return (
         <>
+             {/* Routing */}
             <Navbar />
-
-            <div className="container">
-
-                <h1>Hola ¿qué tal desde jsx</h1>
-                <p>hola</p>
-            </div>
+            <Home />
         </>
     )
 }
