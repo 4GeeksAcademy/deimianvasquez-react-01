@@ -9,6 +9,4 @@ import "../styles/index.css"
 
 
 
-
-
 createRoot(document.querySelector("#app")).render(<Layout/>)
